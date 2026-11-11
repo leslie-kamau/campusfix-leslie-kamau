@@ -1,3 +1,6 @@
+Multimedia university of Kenya
+Leslie Kamau
+Sct-253-012/2022
 campusfix-leslie-kamau/
 ├── README.md
 ├── week1/
@@ -9,12 +12,12 @@ campusfix-leslie-kamau/
     # Week 1: Problem Statement & Stakeholder Analysis
 
 ## 1. Problem Statement
-In a university environment, facilities faults—such as broken computers, damaged laboratory lights, leaking water pipes, faulty classroom doors, and malfunctioning projectors—frequently occur[span_7](start_span)[span_7](end_span). Currently, these issues are reported through informal, fragmented channels including verbal complaints, WhatsApp messages, emails, or paper forms[span_8]
+In a university environment, facilities faults—such as broken computers, damaged laboratory lights, leaking water pipes, faulty classroom doors, and malfunctioning projectors—frequently occur. Currently, these issues are reported through informal, fragmented channels including verbal complaints, WhatsApp messages, emails, or paper forms
 
-This lack of structured reporting creates significant operational issues[span_9](start_span)[span_9](end_span):
-* **Lack of Visibility:** Difficulty determining which faults remain unresolved or are recurring[span_10](start_span)[span_10](end_span).
-* **No Prioritization:** Inability to identify and escalate urgent issues efficiently[span_11](start_span)[span_11](end_span).
-* **Unclear Accountability:** Ambiguity regarding who is assigned to fix specific problems[span_12](start_span)[span_12](end_span).
+This lack of structured reporting creates significant operational issues
+* **Lack of Visibility:** Difficulty determining which faults remain unresolved or are recurring.
+* **No Prioritization:** Inability to identify and escalate urgent issues efficiently.
+* **Unclear Accountability:** Ambiguity regarding who is assigned to fix specific problems.
 * **Untracked Service Levels:** Inability to measure wait times or verify if maintenance meets expected response times
 
 CampusFix closes this gap by providing a centralized digital platform to track facilities problems from initial report to verified resolution
@@ -22,19 +25,19 @@ CampusFix closes this gap by providing a centralized digital platform to track f
 ## 2. Stakeholder Analysis
 | Stakeholder Role | Description & Needs | Primary System Goals |
 | :--- | :--- | :--- |
-| **Students & Teaching Staff** | Report campus facilities issues (e.g., broken equipment, leaks). | Fast reporting, real-time status updates, and confirmation of fixes[span_16](start_span)[span_16](end_span). |
-| **Triage / Admin Staff** | Review incoming reports, assess urgency, and assign tasks[span_17](start_span)[span_17](end_span). | Easy request triage, priority management, and staff assignment[span_18](start_span)[span_18](end_span). |
-| **Maintenance Staff** | Receive assigned tasks, perform repairs, and update status[span_19](start_span)[span_19](end_span). | Task queue management, status updating, and resolution logging[span_20](start_span)[span_20](end_span). |
-| **University Management** | Oversee overall campus maintenance and response times[span_21](start_span)[span_21](end_span). | Performance metrics, service level tracking, and recurring fault reports
+| **Students & Teaching Staff** | Report campus facilities issues (e.g., broken equipment, leaks). | Fast reporting, real-time status updates, and confirmation of fixes. |
+| **Triage / Admin Staff** | Review incoming reports, assess urgency, and assign tasks. | Easy request triage, priority management, and staff assignment. |
+| **Maintenance Staff** | Receive assigned tasks, perform repairs, and update status. | Task queue management, status updating, and resolution logging. |
+| **University Management** | Oversee overall campus maintenance and response times. | Performance metrics, service level tracking, and recurring fault reports
 
 ## 3. System Scope
-CampusFix is designed as a focused software prototype demonstrating an end-to-end software engineering process[span_23]
+CampusFix is designed as a focused software prototype demonstrating an end-to-end software engineering process
 
 * **In Scope:**
   * User authentication for reporting and administrative management.
   * Fault reporting interface with category and location selection.
-  * Triage module for priority assignment and staff routing[span_24](start_span)[span_24](end_span).
-  * Maintenance portal for task tracking and status updates[span_25](start_span)[span_25](end_span).
+  * Triage module for priority assignment and staff routing.
+  * Maintenance portal for task tracking and status updates.
   * Resolution confirmation and ticket closure
 * **Out of Scope:**
   * Hardware/IoT integration for automated fault detection.
@@ -45,18 +48,18 @@ CampusFix is designed as a focused software prototype demonstrating an end-to-en
 For the initial individual phase and subsequent prototype development of CampusFix, an **Agile (Scrum/Iterative)** process model is selected.
 
 ### Justification:
-1. **Incremental Refinement:** CampusFix starts as an individual foundation and evolves into a team project with expanding requirements (e.g., change requests, refactoring)[span_27](start_span)[span_27](end_span). An iterative process supports progressive additions without requiring fixed, static initial designs.
-2. **Early Prototyping:** Agile emphasizes delivering functional modules early, facilitating early feedback on UI and request workflows[span_28](start_span)[span_28](end_span).
+1. **Incremental Refinement:** CampusFix starts as an individual foundation and evolves into a team project with expanding requirements (e.g., change requests, refactoring). An iterative process supports progressive additions without requiring fixed, static initial designs.
+2. **Early Prototyping:** Agile emphasizes delivering functional modules early, facilitating early feedback on UI and request workflows
 3. **Adaptability:** The project demands handling real change requests later in the semester, making rigid models like the traditional Waterfall model unsuitable
 
 ## 2. Individual Project Plan (Weeks 1 – 5)
 
 | Week | Milestone / Goal | Deliverables | Status |
 | :--- | :--- | :--- | :--- |
-| **Week 1** | Problem Formulation | `week1/problem-statement.md` detailing problem definition and stakeholder analysis[span_30](start_span)[span_30](end_span). | Completed |
-| **Week 2** | Process Selection & Planning | `week2/model-justification.md` with model selection and project schedule. | Completed |
-| **Week 3** | Requirements Specification | `week3/srs-draft.md` containing functional and non-functional requirements[span_32](start_span)[span_32](end_span). | Completed |
-| **Week 4** | System Architecture & Use Case Modeling | `week4/use-cases-architecture.md` and initial UML diagrams. | Planned |
+| **Week 1** | Problem Formulation | `week1/problem-statement.md` detailing problem definition and stakeholder analysis. | Completed |
+| **Week 2** | Process cohesion & Planning | `week2/model-justification.md` with model selection and project schedule. | Completed |
+| **Week 3** | Requirements Specification | `week3/srs-draft.md` containing functional and non-functional requirements
+| **Week 4** | System Architecture & Use Case Modeling | `week4/use-cases-architecture.md` and initial UML diagrams. 
 | **Week 5** | Prototype Design & Class/Sequence Diagrams | `week5/design-spec.md` with detailed UML class and sequence models Planned |
 # Week 3: Software Requirements Specification (SRS) Draft
 
@@ -77,24 +80,24 @@ CampusFix allows students and staff to submit maintenance requests, enables admi
 
 ### 2.2 Fault Reporting
 * **FR-03:** Students/Staff shall be able to submit a new problem report specifying:
-  * Location (Building, Room, Lab number)[span_36](start_span)[span_36](end_span)
-  * Fault Category (IT Equipment, Plumbing, Electrical, Furniture, Structural)[span_37](start_span)[span_37](end_span)
-  * Description of the problem[span_38](start_span)[span_38](end_span)
+  * Location (Building, Room, Lab number)[span_36]
+  * Fault Category (IT Equipment, Plumbing, Electrical, Furniture, Structural)
+  * Description of the problem
   * Optional photo/attachment upload.
 * **FR-04:** System shall assign a unique Tracking ID and record the submission timestamp for each report
 
 ### 2.3 Triage & Escalation
-* **FR-05:** Triage staff shall be able to view all unassigned reports[span_40](start_span)[span_40](end_span).
-* **FR-06:** Triage staff shall be able to set problem priority (Low, Medium, High, Urgent)[span_41](start_span)[span_41](end_span).
+* **FR-05:** Triage staff shall be able to view all unassigned reports[span_40]
+* **FR-06:** Triage staff shall be able to set problem priority (Low, Medium, High, Urgent)
 * **FR-07:** Triage staff shall assign an open request to specific maintenance personnel
 
 ### 2.4 Maintenance & Status Management
-* **FR-08:** Maintenance staff shall view their assigned tasks[span_43](start_span)[span_43](end_span).
+* **FR-08:** Maintenance staff shall view their assigned tasks.
 * **FR-09:** Maintenance staff shall update request status across its lifecycle (`Submitted` -> `Triaged` -> `In Progress` -> `Resolved` -> `Closed`)
 * **FR-10:** System shall notify reporters automatically when status updates occur
 
 ### 2.5 Metrics & Reporting
-* **FR-11:** System shall track response and resolution times for each request[span_46](start_span)[span_46](end_span).
+* **FR-11:** System shall track response and resolution times for each request
 * **FR-12:** System shall allow administrators to view metrics on unresolved issues and recurring faults
 
 ---
